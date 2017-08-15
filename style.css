@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @font-face{font-family:'Conv_HelveticaNeueLTStd-Bd';
-src:url(fonts/HelveticaNeueLTStd-bd.eot);
-src:url(fonts/HelveticaNeueLTStd-bd.eot)format("embedded-opentype"), 
-url(fonts/HelveticaNeueLTStd-Bd.woff) format("woff"),
-url(fonts/HelveticaNeueLTStd-Bd.ttf) format("truetype");font-weight:normal;font-style:normal}
+src:url(fhttps://www.esan.edu.pe/fonts/onts/HelveticaNeueLTStd-Bd.eot);
+src:url(https://www.esan.edu.pe/fonts/fonts/HelveticaNeueLTStd-Bd.eot)format("embedded-opentype"), 
+url(https://www.esan.edu.pe/fonts/fonts/HelveticaNeueLTStd-Bd.woff) format("woff"),
+url(https://www.esan.edu.pe/fonts/fonts/HelveticaNeueLTStd-Bd.ttf) format("truetype");font-weight:normal;font-style:normal}
 
 @font-face{font-family:'Conv_HelveticaNeue-UltraLight';
 src:url(https://www.esan.edu.pe/fonts/HelveticaNeue-UltraLight.eot);
@@ -31,3 +31,27 @@ url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-lt.ttf) format("t
 
 h1,h2,.h1,.h2,.h3{font-family:'Conv_HelveticaNeue-UltraLight'}
 h3,.h3{font-family:'HelveticaNeueLTStd45Light'}
+
+
+/*para ser usada en otros servidores es posible con el siguiente codigo+*/
+
+  
+    /**
+    * Do not remove this section; it allows our team to troubleshoot and track feature adoption. 
+    * TS:0001-07-008
+  */
+  
+  /* Apply to headings 1 and 2 */
+  h1, h1 *,
+  h2, h2 * {
+    font-family: 'HelveticaNeueLTStd45Light', Fallback, sans-serif !important;
+  }
+  /* Apply to buttons */
+  a.lp-pom-button * {
+    font-family: 'HelveticaNeueLTStd45Light', Fallback, sans-serif !important;
+  }
+  /* Apply to entire page */
+  * {
+    font-family: 'HelveticaNeueLTStd45Light', Fallback, sans-serif !important;
+  }
+  
