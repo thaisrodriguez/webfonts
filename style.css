@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face{font-family:'Conv_HelveticaNeueLTStd-Bd';
+src:url(fonts/HelveticaNeueLTStd-bd.eot);
+src:url(fonts/HelveticaNeueLTStd-bd.eot)format("embedded-opentype"), 
+url(fonts/HelveticaNeueLTStd-Bd.woff) format("woff"),
+url(fonts/HelveticaNeueLTStd-Bd.ttf) format("truetype");font-weight:normal;font-style:normal}
+
+@font-face{font-family:'Conv_HelveticaNeue-UltraLight';
+src:url(https://www.esan.edu.pe/fonts/HelveticaNeue-UltraLight.eot);
+src:url(https://www.esan.edu.pe/fonts/HelveticaNeue-UltraLight.eot) format("embedded-opentype"),
+url(https://www.esan.edu.pe/fonts/HelveticaNeue-UltraLight.woff) format("woff"),
+url(fonts/HelveticaNeue-UltraLight.ttf) format("truetype");font-weight:400;font-style:normal}
+
+@font-face{font-family:'HelveticaNeueLTStd75Bold';
+src:url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-bd.eot);
+src:url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-bd.eot) format("embedded-opentype"),
+url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-bd.woff) format("woff"),
+url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-bd.ttf) format("truetype")}
+
+@font-face{font-family:'HelveticaNeueRoman';src:url(https://www.esan.edu.pe/fonts/helvetica/hlr___.eot);
+src:url(https://www.esan.edu.pe/fonts/helvetica/hlr___.eot) format("embedded-opentype"),
+url(https://www.esan.edu.pe/fonts/helvetica/hlr___.woff) format("woff"),
+url(https://www.esan.edu.pe/fonts/helvetica/hlr___.ttf) format("truetype")}
+
+@font-face{font-family:'HelveticaNeueLTStd45Light';
+src:url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-lt.eot);
+src:url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-lt.eot) format("embedded-opentype"),
+url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-lt.woff) format("woff"),
+url(https://www.esan.edu.pe/fonts/helvetica/helveticaneueltstd-lt.ttf) format("truetype")}
+
+
+h1,h2,.h1,.h2,.h3{font-family:'Conv_HelveticaNeue-UltraLight'}
+h3,.h3{font-family:'HelveticaNeueLTStd45Light'}
